@@ -1,0 +1,14 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"files.autoSave": "onFocusChange",
+	"files.defaultLanguage": "${activeEditorLanguage}",
+	"explorer.incrementalNaming": "smart",
+	"explorer.confirmDragAndDrop": true,
+	"explorer.confirmDelete": true,
+	"search.smartCase": true,
+	"extensions.ignoreRecommendations": false,
+	"git.autofetch": "all",
+	"git.confirmSync": true,
+	"git.enableSmartCommit": true
+}

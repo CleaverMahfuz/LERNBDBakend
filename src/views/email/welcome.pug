@@ -1,0 +1,19 @@
+extends baseEmail
+
+block content
+  p Hi #{fullName},
+  p Welcome to ELearnBD, we are glad to have you.
+  p ELearnBD is a platform for students by students. Here you will find study materials shared by students and professional instructors. You can also share your own study materials with others.
+  p Hope this platform will be useful for your needs.
+  p Feel free to head over to your profile and edit your information. Do not forget to add a picture to your profile.
+  table.btn.btn-primary(role='presentation', border='0', cellpadding='0', cellspacing='0')
+    tbody
+      tr
+        td(align='left')
+          table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+            tbody
+              tr
+                td
+                  a(href=`${url}`, target='_blank') Edit your personal profile
+  p If you need any help with anything, please don't hesitate to contact me. 
+  p - Anisuzzaman Shayak
